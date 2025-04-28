@@ -17,7 +17,7 @@
   
   body.dark-mode header,
   body.dark-mode footer {
-    background-color: #1e1e1e;
+    background-color: #61444c;
   }
   
   body.dark-mode .breed-card {
@@ -29,7 +29,6 @@
     color: #423a3c;
   }
   
-/* General reset & font */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f8e8eb;
@@ -43,7 +42,6 @@ body {
     color: inherit;
   }
   
-  /* Header */
   header {
     background-color: #ffd1dc;
     padding: 20px;
@@ -78,10 +76,9 @@ body {
   }
   
   nav ul li a:hover {
-    color: #8b0000;
+    color: #ca8686;
   }
   
-  /* Hero Section */
   .hero {
     background: linear-gradient(to right, #ffe6e6, #fff0f5);
     padding: 60px 20px;
@@ -97,7 +94,6 @@ body {
     font-size: 1.1em;
   }
   
-  /* Featured Cards */
   .featured {
     display: flex;
     flex-wrap: wrap;
@@ -138,7 +134,6 @@ body {
     color: #666;
   }
   
-  /* Footer */
   footer {
     text-align: center;
     padding: 20px;
@@ -146,7 +141,7 @@ body {
     font-size: 0.9em;
   }
   
-  /* Content Page Styling (for top10breeds.html) */
+  /* Page Styling (for top10breeds.html) */
 .content {
     padding: 40px 20px;
     text-align: center;
@@ -208,7 +203,6 @@ body {
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
   }
   
-  /* Responsive for mobile */
   @media (max-width: 768px) {
     .breed-card {
       flex-direction: column;
